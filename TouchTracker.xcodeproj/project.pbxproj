@@ -15,6 +15,8 @@
 		657B3FA41D8EB98F00AE0C98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 657B3FA21D8EB98F00AE0C98 /* LaunchScreen.storyboard */; };
 		657B3FAF1D8EB98F00AE0C98 /* TouchTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 657B3FAE1D8EB98F00AE0C98 /* TouchTrackerTests.m */; };
 		657B3FBA1D8EB98F00AE0C98 /* TouchTrackerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 657B3FB91D8EB98F00AE0C98 /* TouchTrackerUITests.m */; };
+		657B3FC91D8EB9EA00AE0C98 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 657B3FC81D8EB9EA00AE0C98 /* Line.m */; };
+		657B3FCC1D8EBA2E00AE0C98 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 657B3FCB1D8EBA2E00AE0C98 /* DrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		657B3FB51D8EB98F00AE0C98 /* TouchTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		657B3FB91D8EB98F00AE0C98 /* TouchTrackerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchTrackerUITests.m; sourceTree = "<group>"; };
 		657B3FBB1D8EB98F00AE0C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		657B3FC71D8EB9EA00AE0C98 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		657B3FC81D8EB9EA00AE0C98 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		657B3FCA1D8EBA2E00AE0C98 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		657B3FCB1D8EBA2E00AE0C98 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				657B3F981D8EB98F00AE0C98 /* AppDelegate.m */,
 				657B3F9A1D8EB98F00AE0C98 /* ViewController.h */,
 				657B3F9B1D8EB98F00AE0C98 /* ViewController.m */,
+				657B3FC71D8EB9EA00AE0C98 /* Line.h */,
+				657B3FC81D8EB9EA00AE0C98 /* Line.m */,
+				657B3FCA1D8EBA2E00AE0C98 /* DrawView.h */,
+				657B3FCB1D8EBA2E00AE0C98 /* DrawView.m */,
 				657B3F9D1D8EB98F00AE0C98 /* Main.storyboard */,
 				657B3FA01D8EB98F00AE0C98 /* Assets.xcassets */,
 				657B3FA21D8EB98F00AE0C98 /* LaunchScreen.storyboard */,
@@ -277,8 +287,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				657B3F9C1D8EB98F00AE0C98 /* ViewController.m in Sources */,
+				657B3FC91D8EB9EA00AE0C98 /* Line.m in Sources */,
 				657B3F991D8EB98F00AE0C98 /* AppDelegate.m in Sources */,
 				657B3F961D8EB98F00AE0C98 /* main.m in Sources */,
+				657B3FCC1D8EBA2E00AE0C98 /* DrawView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
